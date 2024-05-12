@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Random canvas circles</title>
+	<script src="js.js" defer></script>
+	<link rel="stylesheet" href="/dot.css">
+	<style>
+		* {
+			box-sizing: border-box;
+			color: rgb(195, 47, 47);
+		}
+		button{
+			background-color: #070630;
+		}
+	</style>
+
+</head>
+
+<body style="background-color: #282a36">
+<div id="main-container">
+	<h1>Rock Paper Scissors</h1>
+	<p id="choose-weapon">Choose your weapon!</p>
+	<div id="result">
+		<div id="outcome"></div>
+		<p class="icon-label">Computer | user</p>
+		<p id="score">0 : 0</p>
+	</div>
+
+	<div id="game">
+		<button id="rock">rock</button>
+		<button id="paper">paper</button>
+		<button id="scissors">scissors</button>
+	</div>
+
+	<button id="restart">restart</button>
+
+
+</div>
+	<div class="animation-container">
+		<div class="boom-container">
+			<div class="shape circle big white"></div>
+			<div class="shape circle white"></div>
+			<div class="shape triangle big yellow"></div>
+			<div class="shape disc white"></div>
+			<div class="shape triangle blue"></div>
+		</div>
+	</div>
+
+
+</body>
+
+</html>
