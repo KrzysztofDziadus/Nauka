@@ -11,6 +11,7 @@ let buttonRestart = document.querySelector("#restart");
 
 
 
+
 function getComputerChoice() {
     let array = ["kamień", "papier", "nożyce"];
     let random = Math.floor(Math.random() * 3);
@@ -52,9 +53,7 @@ function restartGame() {
     computerResult.textContent = `${computerScore}`;
     playerResult.textContent = `${humanScore}`;
     document.querySelector(".start-text").style.display = "block";
-    document.querySelector(".results").style.display = "none";
-    document.querySelector(".names").style.display = "none";
-    document.querySelector(".results2").style.display = "none";
+    document.querySelector("#game").style.display = "block";
     boxResult1.textContent = '';
 }
 document.querySelector(".results").style.display = "none";
@@ -95,6 +94,10 @@ function playRound(humanChoice) {
             boxResult1.textContent = `You lost... Oponent won game`;
         }
         disableButton()
+        document.querySelector(".results").style.display = "none";
+        document.querySelector(".names").style.display = "none";
+        document.querySelector(".results2").style.display = "none";
+        document.querySelector("#game").style.display = "none";
     }
 }
 
