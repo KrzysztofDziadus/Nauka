@@ -1,0 +1,54 @@
+body {
+    background-color: #282a36;
+    /*border: 2px #0392ff solid;*/
+
+}
+
+.btnCreate, .number {
+    padding: 0 20px;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    height: 30px;
+    border: #3a3c4e 1px solid;
+}
+
+.btnCreate:hover {
+    background-color: #5885cf;
+    cursor: pointer;
+}
+
+.btnCreate:active {
+    background-color: #4c73b1;
+
+}
+
+.number{
+    margin-right: 20px;
+    border-radius: 20px;
+    width: 40px;
+    text-align: center;
+}
+
+.header {
+    margin: 20px;
+    /*border: 2px red solid;*/
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    box-sizing: border-box;
+    margin: auto auto 10px auto;
+    width: 1024px;
+    height: 1024px;
+    background-color: #3a3c4e;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    overflow: hidden;
+}
+
+.boxStyle {
+    box-sizing: border-box;
+    border: 1px solid white;
+}
