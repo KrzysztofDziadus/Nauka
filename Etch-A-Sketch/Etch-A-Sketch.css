@@ -51,4 +51,9 @@ body {
 .boxStyle {
     box-sizing: border-box;
     border: 1px solid white;
+    cursor: pointer;
+}
+
+.boxStyle:hover{
+    border-color: #4c73b1;
 }
