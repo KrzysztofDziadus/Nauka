@@ -4,7 +4,7 @@ body {
 
 }
 
-.btnCreate, .number {
+.btnCreate, .number , .btnRandomColor{
     padding: 0 20px;
     background-color: cornflowerblue;
     border-radius: 20px;
@@ -12,12 +12,12 @@ body {
     border: #3a3c4e 1px solid;
 }
 
-.btnCreate:hover {
+.btnCreate:hover,  .btnRandomColor:hover{
     background-color: #5885cf;
     cursor: pointer;
 }
 
-.btnCreate:active {
+.btnCreate:active ,  .btnRandomColor:active{
     background-color: #4c73b1;
 
 }
@@ -50,10 +50,14 @@ body {
 
 .boxStyle {
     box-sizing: border-box;
-    border: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
     cursor: pointer;
 }
 
 .boxStyle:hover{
     border-color: #4c73b1;
+}
+.btnRandomColor{
+    margin-left: 10px;
 }
