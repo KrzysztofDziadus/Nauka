@@ -39,8 +39,7 @@ empty string...
 so let's look at the javascript file:
 
 ```javascript
-const helloWorld = function () {
-    return ''
+const helloWorld = function () {return ''
 }
 
 module.exports = helloWorld
